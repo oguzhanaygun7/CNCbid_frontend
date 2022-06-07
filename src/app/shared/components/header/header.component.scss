@@ -1,0 +1,164 @@
+#main-header {
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+}
+
+.bg-logo{
+  background-image: url('~src/assets/images/logo-bg.jpg');
+  background-repeat: no-repeat;
+}
+
+.col-w-20{
+  flex: 0 0 auto;
+  width: 20%;
+}
+
+.header-help-questions>a{
+  font-size: 16px;
+  text-decoration: none;
+  color: #a3a2a2;
+  font-weight: bold;
+}
+
+.btn-add-tenders{
+  background-color: #f7a931;
+  color: #fff;
+  border-radius: 150px;
+  height: 60px;
+}
+
+.btn-add-tenders{
+  background-color: #f7a931;
+  color: #fff;
+  border-radius: 150px;
+  height: 65px;
+  max-width: 150px;
+  min-width: 150px;
+  font-weight: 700;
+  line-height: 18px;
+  padding-left: 15px;
+}
+
+.btn-all-tenders{
+  background-color: #3a3939;
+  color: #fff;
+  border-radius: 150px;
+  height: 65px;
+  max-width: 150px;
+  min-width: 150px;
+  font-weight: 700;
+  line-height: 18px;
+  padding-left: 15px;
+}
+
+.col-w-10{
+  flex: 0 0 auto;
+  width: 10%;
+}
+
+.header-search{
+  height: 65px;
+  border: 2px solid #f7a931;
+  background-color: #fff;
+  border-radius: 150px;
+  color: #3a3939;
+  padding-left: 180px;
+
+}
+
+.header-search-select{
+  height: 65px;
+  border: 2px solid #f7a931;
+  background-color: #fff;
+  border-radius: 150px;
+  color: #f7a931;
+  font-weight: 700;
+}
+
+.search {
+  display: block;
+  position: absolute;
+  right: 30px;
+  cursor: pointer;
+  top: 22px;
+  color: #f7a931;
+}
+
+.btn-account{
+  color: #a3a2a2;
+  font-weight: 700;
+}
+.btn-account>i{
+  color: #f7a931 !important;
+}
+
+.account-badge{
+  background-color: #f7a931;
+  padding: 2px 8px;
+  border-radius: 100%;
+  color: #fff;
+}
+
+.btn-english{
+  border: 2px solid #f5f5f5;
+  color: #7d7b7b;
+  background-color: #ffffff;
+  border-radius: 0;
+}
+.btn-turkish{
+  color: #f7a931;
+  background-color: #f5f5f5;
+  border: 2px solid #f5f5f5;
+  border-radius: 0;
+}
+
+/* Navbar */
+
+.nav-item{
+  justify-content: space-between;
+  padding: 0 3rem;
+}
+.nav-item>.nav-link{
+  color: #212121;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+
+.nav-link.active{
+  border-bottom: 4px solid #f7a931 !important;
+  color: #f7a931 !important;
+}
+
+.nav-link:hover{
+  color: #f7a931 !important;
+}
+
+.header-route{
+  color: #a3a2a2;
+}
+
+.overlay-buttons{
+  background: #ffffff30;
+  width: 60%;
+  height: 103%;
+  position: absolute;
+  top: -1px;
+  left: -2px;
+  border-radius: 180px;
+  border-top-right-radius: 10px;
+}
+
+/*.btn-add-tenders{
+  &:hover{
+    .overlay-orange{
+      background: #ffffff30;
+      width: 60%;
+      height: 103%;
+      position: absolute;
+      top: -1px;
+      left: -2px;
+      border-radius: 180px;
+      border-top-right-radius: 10px;
+    }
+  }
+}*/
