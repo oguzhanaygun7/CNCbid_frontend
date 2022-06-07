@@ -1,1 +1,266 @@
-<p>tenders works!</p>
+<div class="container pt-5 pb-3">
+  <div class="row px-4">
+    <div class="col-2 mb-4 p-3 bg-menu">
+      <ul class="menu-card">
+        <li (click)="IsSelected=0" [class]="IsSelected==0?'active':''" class="menu-item">Onay Bekleyenler</li>
+        <li (click)="IsSelected=1" [class]="IsSelected==1?'active':''" class="menu-item">Yayında Olanlar</li>
+        <li (click)="IsSelected=2" [class]="IsSelected==2?'active':''" class="menu-item">Sonuçlananlar</li>
+      </ul>
+    </div>
+    <div class="col-10" *ngIf="IsSelected==0">
+      <div class="row ps-5">
+        <div class="col-12 card-item mb-5">
+          <div class="right-angle">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <img src="assets/images/tenders/foto-1.jpg" class="w-100">
+            </div>
+            <div class="col-9">
+              <div class="row" style="height: 100%">
+                <div class="col-12">
+                  <p class="card-title">Otomatik 5 Eksen Kafalı Cme Fs-5 Bench Tip Cnc İşleme Merkezi</p>
+                </div>
+                <div class="col-12 align-self-center">
+                  <div class="row">
+                    <div class="col-3 align-self-center">
+                      <p class="mb-0">Hedef Satış Fiyatınız</p>
+                      <span class="fw-bolder orange-color">₺ 2.206.029</span>
+                    </div>
+                    <div class="col-3 align-self-center me-auto">
+                      <p class="mb-0">Verilen Mevcut Teklif</p>
+                      <span class="fw-bolder orange-color">₺ 1.300.000</span>
+                    </div>
+                    <!--<div class="col-6"></div>-->
+                  </div>
+                </div>
+                <div class="col-12 mt-auto card-time">
+                  <span><img src="assets/images/icons/time.png" style="padding-bottom: 3px; padding-right: 10px"> Bitiş Tarihi: 15.02.2022 13:00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-10" *ngIf="IsSelected==1">
+      <div class="row ps-5">
+        <div class="col-12 card-item mb-5">
+          <div class="right-angle">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <img src="assets/images/tenders/foto-1.jpg" class="w-100">
+            </div>
+            <div class="col-9">
+              <div class="row" style="height: 100%">
+                <div class="col-12">
+                  <p class="card-title">Otomatik 5 Eksen Kafalı Cme Fs-5 Bench Tip Cnc İşleme Merkezi</p>
+                </div>
+                <div class="col-12 align-self-center">
+                  <div class="row">
+                    <div class="col-3 align-self-center">
+                      <p class="mb-0">Hedef Satış Fiyatınız</p>
+                      <span class="fw-bolder orange-color">₺ 2.206.029</span>
+                    </div>
+                    <div class="col-3 align-self-center me-auto">
+                      <p class="mb-0">Verilen Mevcut Teklif</p>
+                      <span class="fw-bolder orange-color">₺ 1.300.000</span>
+                    </div>
+                    <!--<div class="col-6"></div>-->
+                  </div>
+                </div>
+                <div class="col-12 mt-auto card-time">
+                  <span><img src="assets/images/icons/time.png" style="padding-bottom: 3px; padding-right: 10px"> Bitiş Tarihi: 15.02.2022 13:00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 card-item mb-5">
+          <div class="right-angle">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <img src="assets/images/tenders/foto-2.jpg" class="w-100">
+            </div>
+            <div class="col-9">
+              <div class="row" style="height: 100%">
+                <div class="col-12">
+                  <p class="card-title">Multinorma 6000 Cnc Köprü Tip İşleme Merkezi Ref-3215</p>
+                </div>
+                <div class="col-12 align-self-center">
+                  <div class="row">
+                    <div class="col-3 align-self-center">
+                      <p class="mb-0">Hedef Satış Fiyatınız</p>
+                      <span class="fw-bolder orange-color">₺ 1.206.029</span>
+                    </div>
+                    <div class="col-3 align-self-center me-auto">
+                      <p class="mb-0">Verilen Mevcut Teklif</p>
+                      <span class="fw-bolder yellow-color">₺ 1.500.000</span>
+                    </div>
+                    <div class="col-6">
+                      <div class="congs-badge arrow-left position-relative">
+                        <div class="close-badge">
+                          <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <div class="row ">
+                          <div class="col-2 align-self-center pe-0">
+                            <i class="fa-solid fa-circle-info"></i>
+                          </div>
+                          <div class="col-10 ps-0">
+                            Hedeflediğiniz satış fiyatı
+                            geçilmiştir. Tebrikler!
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 mt-auto card-time">
+                  <span><img src="assets/images/icons/time.png" style="padding-bottom: 3px; padding-right: 10px"> Bitiş Tarihi: 20.02.2022 14:00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 card-item mb-5">
+          <div class="right-angle">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <img src="assets/images/tenders/foto-3.jpg" class="w-100">
+            </div>
+            <div class="col-9">
+              <div class="row" style="height: 100%">
+                <div class="col-12">
+                  <p class="card-title">Zimmerman Fz30/5 Köprü Tipi İşleme Merkezi</p>
+                </div>
+                <div class="col-12 align-self-center">
+                  <div class="row">
+                    <div class="col-3 align-self-center">
+                      <p class="mb-0">Hedef Satış Fiyatınız</p>
+                      <span class="fw-bolder orange-color">₺ 1.602.951</span>
+                    </div>
+                    <div class="col-3 align-self-center me-auto">
+                      <p class="mb-0">Verilen Mevcut Teklif</p>
+                      <span class="fw-bolder orange-color">₺ 1.200.000</span>
+                    </div>
+                    <!--<div class="col-6"></div>-->
+                  </div>
+                </div>
+                <div class="col-12 mt-auto card-time">
+                  <span><img src="assets/images/icons/time.png" style="padding-bottom: 3px; padding-right: 10px"> Bitiş Tarihi: 25.02.2022 18:00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 card-item mb-5">
+          <div class="right-angle">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <img src="assets/images/tenders/foto-4.jpg" class="w-100">
+            </div>
+            <div class="col-9">
+              <div class="row" style="height: 100%">
+                <div class="col-12">
+                  <p class="card-title">Deckel Maho Dmc-100V Cnc Dik İşleme Merkezi - 1999</p>
+                </div>
+                <div class="col-12 align-self-center">
+                  <div class="row">
+                    <div class="col-3 align-self-center">
+                      <p class="mb-0">Hedef Satış Fiyatınız</p>
+                      <span class="fw-bolder orange-color">₺ 2.206.029</span>
+                    </div>
+                    <div class="col-3 align-self-center me-auto">
+                      <p class="mb-0">Verilen Mevcut Teklif</p>
+                      <span class="fw-bolder yellow-color">₺ 2.700.000</span>
+                    </div>
+                    <div class="col-6 align-self-center">
+                      <div class="congs-badge arrow-left position-relative">
+                        <div class="close-badge">
+                          <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <div class="row ">
+                          <div class="col-2 align-self-center pe-0">
+                            <i class="fa-solid fa-circle-info"></i>
+                          </div>
+                          <div class="col-10 ps-0">
+                            Hedeflediğiniz satış fiyatı
+                            geçilmiştir. Tebrikler!
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 mt-auto card-time">
+                  <span><img src="assets/images/icons/time.png" style="padding-bottom: 3px; padding-right: 10px"> Bitiş Tarihi: 10.03.2022 14:00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-10" *ngIf="IsSelected==2">
+      <div class="row ps-5">
+        <div class="col-12 card-item mb-5">
+          <div class="right-angle">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <img src="assets/images/tenders/foto-4.jpg" class="w-100">
+            </div>
+            <div class="col-9">
+              <div class="row" style="height: 100%">
+                <div class="col-12">
+                  <p class="card-title">Deckel Maho Dmc-100V Cnc Dik İşleme Merkezi - 1999</p>
+                </div>
+                <div class="col-12 align-self-center">
+                  <div class="row">
+                    <div class="col-3 align-self-center">
+                      <p class="mb-0">Hedef Satış Fiyatınız</p>
+                      <span class="fw-bolder orange-color">₺ 2.206.029</span>
+                    </div>
+                    <div class="col-3 align-self-center me-auto">
+                      <p class="mb-0">Verilen Mevcut Teklif</p>
+                      <span class="fw-bolder yellow-color">₺ 2.700.000</span>
+                    </div>
+                    <div class="col-6 align-self-center">
+                      <div class="congs-badge arrow-left position-relative">
+                        <div class="close-badge">
+                          <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <div class="row ">
+                          <div class="col-2 align-self-center pe-0">
+                            <i class="fa-solid fa-circle-info"></i>
+                          </div>
+                          <div class="col-10 ps-0">
+                            Hedeflediğiniz satış fiyatı
+                            geçilmiştir. Tebrikler!
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 mt-auto card-time">
+                  <span><img src="assets/images/icons/time.png" style="padding-bottom: 3px; padding-right: 10px"> Bitiş Tarihi: 10.03.2022 14:00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

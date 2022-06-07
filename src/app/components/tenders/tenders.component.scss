@@ -1,0 +1,113 @@
+.bg-menu{
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 2px -2px #00000050;
+  height: fit-content;
+}
+
+.menu-card{
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.menu-item{
+  background-color: #fff;
+  border-radius: 100px;
+  padding: 20px;
+  margin-top: 1rem;
+  color: #7d7b7b;
+  cursor: pointer;
+}
+
+.menu-item.active{
+  width: 109%;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  color: #f7a931;
+  font-weight: 700;
+  padding-left: 5%;
+}
+
+.card-item{
+  padding: 35px;
+  background-color: #ffffff;
+  box-shadow: 0 0 30px #00000020;
+  position: relative;
+}
+
+.right-angle{
+  width: 45px;
+  height: 35px;
+  position: absolute;
+  background: #f5f5f5;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.right-angle>.fa-chevron-right{
+  padding: 10px 17px;
+  color: #7e7c7c;
+}
+
+.card-title{
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card-time{
+  color: #a3a2a2;
+}
+
+.congs-badge {
+  width: 260px;
+  background-color: #fff;
+  color: #19d894;
+  line-height: 17px;
+  padding: 30px 15px;
+  border-radius: 10px;
+  position: relative;
+  float: left;
+  box-shadow: 0 0 15px #00000010;
+  border: 1px solid #a3a2a230;
+}
+
+.congs-badge.close-tab{
+  display: none;
+}
+
+.congs-badge.arrow-left:after {
+  content: " ";
+  position: absolute;
+  left: -11px;
+  top: 33px;
+  border-top: 11px solid #ffffff00;
+  border-right: 11px solid #fff;
+  border-left: none;
+  border-bottom: 11px solid #ffffff00;
+}
+
+.congs-badge.arrow-left:before {
+  content: "";
+  position: absolute;
+  left: -13px;
+  top: 31px;
+  border-top: 13px solid #ffffff00;
+  border-right: 13px solid #a3a2a230;
+  border-left: none;
+  border-bottom: 13px solid #ffffff00;
+}
+
+.close-badge{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #8c8a8a;
+  cursor: pointer;
+}
+
+.yellow-color{
+  color: #19d894;
+}
